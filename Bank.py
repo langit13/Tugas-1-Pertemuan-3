@@ -1,5 +1,5 @@
 
-sapaan=input("").lower()
+sapaan=input("").lower().strip()
 x=sapaan.split(',')
 
 if sapaan=="hello":
